@@ -22,12 +22,10 @@ Step 4
 Wrap <App /> component to ReactDOM.render() with new Router component. - DOne
 - Import { Route } from 'react-router-dom' inside of App.js - Done
 
-
  Step 5
  Then make it so you can navigate to your routes using Link.
-
- Step 6
- Create two routes in your App component, one at '/' for your Smurfs component,and one at /smurf-form for your form.
-
- Step 7
- Then in your App component, create a nav bar that will use NavLink to route to your different pages.
+ - create a new NavBar Component under components folder - Done
+- create two routes in your App component, one at '/' for your Smurfs component,and one at /smurf-form for your form. - Done
+ - then in your App component, create a nav bar that will use NavLink to route to your different pages. - Done
+ - import NavBar component in App component- Done
+ - add the NavBar route in the render function in App component - Done
