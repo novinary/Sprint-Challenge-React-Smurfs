@@ -13,7 +13,10 @@ class App extends Component {
   }
 
   // componentDidMount is executed directly after the component has been rendered to the DOM
-  componentDidMount(){
+  componentDidMount() {
+    this.addSmurfs();
+  }
+  addSmurfs = () => {
     axios.get('http://localhost:3333/smurfs')
       .then(res => this.setState({ smurfs: res.data }))
       .catch(err => console.log(err));
@@ -25,7 +28,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SmurfForm />
+        <SmurfForm addSmurfs={this.addSmurfs} />
         <Smurfs smurfs={this.state.smurfs} />
       </div>
     );
