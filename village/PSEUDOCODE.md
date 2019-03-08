@@ -29,3 +29,12 @@ Wrap <App /> component to ReactDOM.render() with new Router component. - DOne
  - then in your App component, create a nav bar that will use NavLink to route to your different pages. - Done
  - import NavBar component in App component- Done
  - add the NavBar route in the render function in App component - Done
+
+ /**  mvp completed **/
+** Work on styling **
+Step 6
+- Use tachyons library for styling
+- Run npm install tachyons yo install tachyons package
+- 'tachyons' allows us to have similar to bootstrap, predefined class names that we can just add to components to make things look really nice.
+- Use Character Shadow font from https://www.cufonfonts.com/font/
+

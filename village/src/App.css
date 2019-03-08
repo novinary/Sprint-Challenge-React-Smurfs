@@ -1,3 +1,15 @@
 .App {
   text-align: center;
 }
+
+@font-face {
+  font-family: "Character Shadow";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Character Shadow"), url("CHARS___.woff") format("woff");
+}
+
+h1 {
+  font-family: "Character Shadow";
+  font-weight: 200;
+}

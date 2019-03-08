@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import 'tachyons';
 
 class NavBar extends React.Component {
     render() {
